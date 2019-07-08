@@ -1,0 +1,24 @@
+{
+	"name": "es6",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js --ext js --exec babel-node",
+		"test": "jest --watchAll"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+		"babel-cli": "^6.26.0",
+		"jest": "^24.8.0",
+		"nodemon": "^1.19.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.0",
+		"@babel/preset-env": "^7.5.0",
+		"babel-jest": "^24.8.0"
+	}
+}
